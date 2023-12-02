@@ -4,20 +4,20 @@ import dash
 import dash_auth
 import pandas as pd
 
-df = pd.read_csv("mcbTest.csv")
+df = pd.read_csv("mcb2.csv")
 
-app = dash.Dash(external_stylesheets=[dbc.themes.SKETCHY], title='ML Projects')
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='ML Projects')
 
 server = app.server
 
-VALID_USERNAME_PASSWORD_PAIRS = {
-    'mcb': 'mcb123'
-}
+# VALID_USERNAME_PASSWORD_PAIRS = {
+#     'mcb': 'mcb123'
+# }
 
-auth = dash_auth.BasicAuth(
-    app,
-    VALID_USERNAME_PASSWORD_PAIRS
-)
+# auth = dash_auth.BasicAuth(
+#     app,
+#     VALID_USERNAME_PASSWORD_PAIRS
+# )
 
 app.layout = dbc.Container([
     dbc.Row(
@@ -177,7 +177,7 @@ def update_output(n_clicks, state, state0, state1, state2, state3, state4):
             def NN():
                 from dash import dash_table
                 # import and build the NN recommender
-                df = pd.read_csv("mcbTest.csv")
+                df = pd.read_csv("mcb2.csv")
                 df.drop("date", axis=1, inplace=True)
                 df = df.dropna()
                 y = df.iloc[:, 6:]
