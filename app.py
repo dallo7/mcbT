@@ -10,14 +10,14 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='MCB'
 
 server = app.server
 
-# VALID_USERNAME_PASSWORD_PAIRS = {
-#     'mcb': 'mcb123'
-# }
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'mcb': 'mcb123'
+}
 
-# auth = dash_auth.BasicAuth(
-#     app,
-#     VALID_USERNAME_PASSWORD_PAIRS
-# )
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
 
 app.layout = dbc.Container([
     dbc.Row(
@@ -180,7 +180,7 @@ def update_output(n_clicks, state, state0, state1, state2, state3, state4):
                 df = pd.read_csv("mcb2.csv")
                 df.drop("date", axis=1, inplace=True)
                 df = df.dropna()
-                y = df.iloc[:, 6:]
+                y = df.iloc[:, 7:]
                 df_scaledy = pd.DataFrame(scaler.fit_transform(y), columns=y.columns)
                 y = df_scaledy
 
