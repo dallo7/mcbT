@@ -6,7 +6,7 @@ import pandas as pd
 
 df = pd.read_csv("mcb2.csv")
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='ML Projects')
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='MCB')
 
 server = app.server
 
