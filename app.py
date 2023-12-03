@@ -10,14 +10,14 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='MCB'
 
 server = app.server
 
-VALID_USERNAME_PASSWORD_PAIRS = {
-    'mcb': 'mcb123'
-}
+# VALID_USERNAME_PASSWORD_PAIRS = {
+#     'mcb': 'mcb123'
+# }
 
-auth = dash_auth.BasicAuth(
-    app,
-    VALID_USERNAME_PASSWORD_PAIRS
-)
+# auth = dash_auth.BasicAuth(
+#     app,
+#     VALID_USERNAME_PASSWORD_PAIRS
+# )
 
 app.layout = dbc.Container([
     dbc.Row(
