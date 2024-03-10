@@ -6,7 +6,7 @@ import pandas as pd
 
 df = pd.read_csv("mcb2.csv")
  
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='Portfolio ')
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='Relationship-MM')
 
 server = app.server
 
@@ -22,7 +22,7 @@ server = app.server
 app.layout = dbc.Container([
     dbc.Row(
         [
-            html.Div([html.P(['Portfolio recommender Model'],
+            html.Div([html.P(['RM Portfolio recommender Model'],
                              style={'marginBottom': 15, 'marginTop': 10, 'text-align': 'center', 'color': 'Green',
                                     'fontSize': 18})]),
             dbc.Col([
