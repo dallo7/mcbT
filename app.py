@@ -5,13 +5,13 @@ import dash_auth
 import pandas as pd
 
 df = pd.read_csv("mcb2.csv")
-
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='MCB')
+ 
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY], title='Portfolio ')
 
 server = app.server
 
 # VALID_USERNAME_PASSWORD_PAIRS = {
-#     'mcb': 'mcb123'
+#     'test': 'test123'
 # }
 
 # auth = dash_auth.BasicAuth(
@@ -22,7 +22,7 @@ server = app.server
 app.layout = dbc.Container([
     dbc.Row(
         [
-            html.Div([html.P(['MCB Recommender Model'],
+            html.Div([html.P(['Portfolio recommender Model'],
                              style={'marginBottom': 15, 'marginTop': 10, 'text-align': 'center', 'color': 'Green',
                                     'fontSize': 18})]),
             dbc.Col([
