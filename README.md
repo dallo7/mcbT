@@ -9,8 +9,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24-orange.svg)](https://scikit-learn.org/stable/)
 [![Made with ML](https://img.shields.io/badge/Made%20with-ML-red)](https://github.com/madewithml)
 [![Recommendation Engine](https://img.shields.io/badge/Type-Recommendation%20Engine-brightgreen)](https://en.wikipedia.org/wiki/Recommender_system)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)                                                                                                    
-
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)                                                                                                                 
 
 This Dash web application provides personalized portfolio recommendations for relationship managers (RMs) based on customer attributes and behavior. It uses a combination of LightGBM and Nearest Neighbors (NN) algorithms for recommendations.
 
