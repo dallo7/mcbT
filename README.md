@@ -1,4 +1,4 @@
-# RM Portfolio Recommender Model
+# Relationship Manager Portfolio Recommender Model
 
 ## Dash app for Community
 
