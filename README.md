@@ -2,6 +2,7 @@
 
 ## Dash app for Community
 
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![Dash](https://img.shields.io/badge/Dash-v2-orange)](https://dash.plotly.com/)
@@ -12,6 +13,8 @@
 
 
 This Dash web application provides personalized portfolio recommendations for relationship managers (RMs) based on customer attributes and behavior. It uses a combination of LightGBM and Nearest Neighbors (NN) algorithms for recommendations.
+
+The app is hosted on render.com https://mcbrecommender.onrender.com/ 
 
 ## Table of Contents
 
