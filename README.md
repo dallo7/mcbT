@@ -14,7 +14,9 @@
 
 This Dash web application provides personalized portfolio recommendations for relationship managers (RMs) based on customer attributes and behavior. It uses a combination of LightGBM and Nearest Neighbors (NN) algorithms for recommendations.
 
-The app is hosted on render.com https://mcbrecommender.onrender.com/ 
+
+The app is hosted on render.com https://mcbrecommender.onrender.com/  (when you click the link give it at least a minute for the service to restart)                    
+  
 
 ## Table of Contents
 
