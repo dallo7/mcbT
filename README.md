@@ -13,7 +13,7 @@
 
 This Dash web application provides personalized portfolio recommendations for relationship managers (RMs) based on customer attributes and behavior. It uses a combination of LightGBM and Nearest Neighbors (NN) algorithms for recommendations.
 
-[![Dental Diagnosis Demo Video](https://github.com/dallo7/mcbT/blob/27605c9f85a9112cbc3a193fc077dfc770c1abe6/mcbt.gif)](https://github.com/dallo7/mcbT/blob/27605c9f85a9112cbc3a193fc077dfc770c1abe6/reco.png)
+[![Dental Diagnosis Demo Video](https://github.com/dallo7/mcbT/blob/27605c9f85a9112cbc3a193fc077dfc770c1abe6/reco.png)]
 
 
 The app is hosted on render.com https://mcbrecommender.onrender.com/  (when you click the link give it at least a minute for the service to restart)                    
